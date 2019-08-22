@@ -10,9 +10,6 @@ export interface Piece {
 	script?: string,
 	transition?: string
 }
-export interface SheetsPiece extends Piece {
-	position: string // A3:A9
-}
 
 export class SheetPiece implements Piece {
 	constructor (
